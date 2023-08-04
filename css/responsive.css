@@ -183,6 +183,57 @@
 .hero .hero-main .hero-img img{
   width: 100%;
 }
+
+/* servie part start */
+.services {
+  padding: 40px 30px 0px;
+}
+.service-container{
+  flex-direction: column;
+}
+.service-content{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.service p{
+  font-size: 16px;
+}
+
+/* portfolio part start */
+.portfolio {
+  padding: 40px 30px 0;
+}
+.portfolio-heading h1 {
+  font-size: 19px;
+  font-weight: 800;
+}
+.portfolio-heading p{
+  font-size: 16px;
+}
+.box-anchor {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.box-anchor a {
+  font-size: 16px;
+}
+.light-box {
+  display: block;
+}
+.img-box {
+  width: 100%;
+  display: flex;
+}
+.contact {
+  padding: 40px 30px 0;
+}
+
+
+
 }
 
 
