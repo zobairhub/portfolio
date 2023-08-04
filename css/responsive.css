@@ -51,7 +51,9 @@
     }
 }
 @media screen and (max-width: 768px){
-  
+header,.hero{
+  min-height: 70vh;
+}
 .hero .hero-main .hero-text{
   text-align: left;
 }
@@ -72,7 +74,10 @@
   margin-bottom: 15px;
 }
 /* end of hero */
-
+.services {
+  padding: 40px 50px 0;
+  min-height: 86vh;
+}
 .service-heading p {
   font-size: 18px;
   padding-top: 5px;
@@ -107,7 +112,9 @@
 .services {
   padding: 100px 50px 0;
 }
+
 /* end of service */
+
 /* portfolio start */
 .portfolio-heading h1 {
   color: #fff;
@@ -126,14 +133,15 @@
   font-size: 16px;
 }
 .img-box {
-  width: 50%;
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 .portfolio-btn-box {
   padding: 20px;
 }
 .light-box {
-  width: 100%;
-  display: -webkit-inline-box;
+  display: block;
 }
 .img-box {
   width: 50%;
@@ -202,7 +210,9 @@
   width: 100%;
   display: flex;
 }
-
+.contact-form form label input{
+  width: 475px;
+}
 
 
 }
