@@ -1,0 +1,224 @@
+:root {
+  --mainColor: #3E92CC;
+  --textColor: #2A628F;
+  --hoverColor: #13293D;
+  --boxShadow: #16324F;
+  --borderColor: #18435A;
+  --active: #D90368;
+  --headerBg: #2E294E;
+}
+@media screen and (max-width: 992px){
+  /* service start */
+  .service {
+    margin: 0 4px !important;
+  }
+  .service-btn-box {
+      padding-bottom: 12px !important;
+  }
+  .service-btn-box button{
+    margin-top: 18px !important;
+  }
+  .services {
+    background: linear-gradient(var(--active), var(--textColor));
+    width: 100%;
+    min-height: 100vh;
+    padding: 90px 50px 0;
+  }
+.service-container {
+  padding-top: 14px;
+}
+  /* service end  */
+
+  /* portfolio start */
+  .portfolio {
+    background: linear-gradient(var(--textColor), var(--active));
+    width: 100%;
+    min-height: 100vh;
+    padding: 90px 50px 0;
+  }
+  .portfolio-btn-box button {
+    margin-top: 0px;
+  }
+  .portfolio-btn-box {
+    padding-bottom: 10px !important;
+  }
+  .portfolio-btn-box button{
+
+  }
+    /* portfolio end */
+    .fa-bars {
+      display: none;
+    }
+}
+@media screen and (max-width: 768px){
+  
+.hero .hero-main .hero-text{
+  text-align: left;
+}
+.hero .hero-main .hero-text h1 {
+  font-size: 40px;
+}
+.hero .hero-main .hero-text h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.hero .hero-main .hero-text h1 span {
+  font-size: 53px;
+  font-weight: 100;
+  color: var(--active);
+}
+.hero .hero-main .hero-text p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/* end of hero */
+
+.service-heading p {
+  font-size: 18px;
+  padding-top: 5px;
+}
+.service-heading h1 {
+  text-transform: capitalize;
+  font-size: 28px;
+  text-decoration: none;
+}
+.service h4 {
+  font-size: 18px;
+}
+.service img {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+.service p {
+  font-size: 18px;
+  padding: 0px 0px 20px 0px;
+}
+.service i {
+  font-size: 16px;
+  padding: 4px;
+}
+.service {
+  padding: 26px;
+}
+.service-container {
+  padding-top: 30px;
+}
+.services {
+  padding: 100px 50px 0;
+}
+/* end of service */
+/* portfolio start */
+.portfolio-heading h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 100;
+  text-decoration: none;
+  padding-bottom: 0px;
+}
+.portfolio-heading p {
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.box-anchor a {
+  font-size: 16px;
+}
+.img-box {
+  width: 50%;
+}
+.portfolio-btn-box {
+  padding: 20px;
+}
+.light-box {
+  width: 100%;
+  display: -webkit-inline-box;
+}
+.img-box {
+  width: 50%;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content:
+    space-between;
+  align-items: center;
+ width: 100%;
+}
+.fa-bars {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+}
+.menu>li {
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 576px){
+  
+}
+
+@media screen and (max-width: 320px) {
+.hero {
+  padding: 136px 20px 0;
+  }
+.hero .hero-main {
+  flex-direction: column;
+  width: 100%;
+  }
+.hero .hero-main .hero-text h1,h3{
+  padding-bottom: 10px;
+}
+.hero .hero-main .hero-text{
+  padding-left: 0;
+  }
+.hero .hero-main .hero-text,
+.hero .hero-main .hero-img
+  {
+    width: 100%;
+  }
+.hero .hero-main .hero-img img{
+  width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* portfolio end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 576px){}
+@media screen and (max-width: 320px){}
